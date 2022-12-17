@@ -12,7 +12,7 @@ tsParticles.load("tsparticles", {
     },
     links: {
       enable: true,
-      distance: 1000,
+      distance: 9999,
       color: "#696969",
       opacity: 0.6,
       width: 1
