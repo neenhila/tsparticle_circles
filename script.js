@@ -4,16 +4,17 @@ tsParticles.load("tsparticles", {
       value: 25
     },
     move: {
-      enable: true
+      enable: true,
+      speed: {min: 5, max: 10}
     },
     shape: {
       type: "star"
     },
     links: {
       enable: true,
-      distance: 200,
+      distance: 1000,
       color: "#696969",
-      opacity: 0.2,
+      opacity: 0.6,
       width: 1
     }
   },
@@ -38,10 +39,10 @@ tsParticles.load("tsparticles", {
         distance: 100
       },
       push: {
-        quantity: 2
+        quantity: 4
       },
       remove: {
-        quantity: 1
+        quantity: 3
       }
     }
   },
