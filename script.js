@@ -1,7 +1,7 @@
 tsParticles.load("tsparticles", {
   particles: {
     number: {
-      value: 100
+      value: 200
     },
     move: {
       enable: true
@@ -11,13 +11,13 @@ tsParticles.load("tsparticles", {
     },
     animation: {
       enable: true,
-      speed: 20,
-      minimumValue: 0.1,
+      speed: 25,
+      minimumValue: 0.2,
       sync: false
     },
     links: {
       enable: true,
-      distance: 350,
+      distance: 200,
       color: "#696969",
       opacity: 0.2,
       width: 1
@@ -41,7 +41,7 @@ tsParticles.load("tsparticles", {
         }
       },
       repulse: {
-        distance: 150
+        distance: 100
       },
       push: {
         quantity: 4
