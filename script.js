@@ -3,6 +3,9 @@ tsParticles.load("tsparticles", {
     number: {
       value: 100
     },
+    move: {
+      enable: false
+    },
     shape: {
       type: "star"
     },
