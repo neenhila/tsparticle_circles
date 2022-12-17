@@ -4,7 +4,7 @@ tsParticles.load("tsparticles", {
       value: 200
     },
     move: {
-      enable: false
+      enable: true
     },
     shape: {
       type: "star"
