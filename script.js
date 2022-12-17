@@ -38,10 +38,10 @@ tsParticles.load("tsparticles", {
         distance: 100
       },
       push: {
-        quantity: 4
+        quantity: 2
       },
       remove: {
-        quantity: 2
+        quantity: 1
       }
     }
   },
