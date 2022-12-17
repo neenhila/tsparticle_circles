@@ -1,23 +1,27 @@
 tsParticles.load("tsparticles", {
   particles: {
     number: {
-      value: 150
+      value: 100
     },
     move: {
       enable: true,
+      speed: 0.5
     },
     shape: {
       type: "star"
     },
     animation: {
-      enable: false,
+      enable: true,
+      speed: .1,
+      minimumValue: 0.1,
+      sync: true
     },
     links: {
       enable: true,
-      distance: 1400,
+      distance: 400,
       color: "#696969",
       opacity: 0.6,
-      width: 1
+      width: 2
     }
   },
   interactivity: {
@@ -28,7 +32,7 @@ tsParticles.load("tsparticles", {
         mode: "repulse"
       },
 
-      resize: true
+      resize: false
     },
     modes: {
       grab: {
@@ -38,13 +42,13 @@ tsParticles.load("tsparticles", {
         }
       },
       repulse: {
-        distance: 50
+        distance: 150
       },
       push: {
-        quantity: 3
+        quantity: 4
       },
       remove: {
-        quantity: 1
+        quantity: 2
       }
     }
   },
