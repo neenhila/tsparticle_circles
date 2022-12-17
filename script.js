@@ -1,7 +1,7 @@
 tsParticles.load("tsparticles", {
   particles: {
     number: {
-      value: 300
+      value: 100
     },
     move: {
       enable: true
