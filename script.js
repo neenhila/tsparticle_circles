@@ -3,7 +3,7 @@ tsParticles.load("tsparticles", {
     number: {
       value: 100
     },
-    move: {
+    moves: {
       enable: false
     },
     shape: {
