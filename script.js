@@ -17,7 +17,7 @@ tsParticles.load("tsparticles", {
     },
     links: {
       enable: true,
-      distance: 300,
+      distance: 350,
       color: "#696969",
       opacity: 0.2,
       width: 1
@@ -41,7 +41,7 @@ tsParticles.load("tsparticles", {
         }
       },
       repulse: {
-        distance: 80
+        distance: 150
       },
       push: {
         quantity: 4
