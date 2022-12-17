@@ -4,16 +4,10 @@ tsParticles.load("tsparticles", {
       value: 200
     },
     move: {
-      enable: true
+      enable: false
     },
     shape: {
       type: "star"
-    },
-    animation: {
-      enable: true,
-      speed: 25,
-      minimumValue: 0.2,
-      sync: false
     },
     links: {
       enable: true,
