@@ -6,15 +6,17 @@
 
 body{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     overflow: hidden;
 }
 
 #tsparticles {
     /*   background; */
-    width: 100%;
+    min-width: 100vw;
+    width: auto;
     background-color: black;
+    min-height: 100vh;
     height: 100%;
-    transition: .5s all linear;
 }
 
