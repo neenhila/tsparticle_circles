@@ -51,7 +51,7 @@ tsParticles.load("tsparticles", {
     links: {
       enable: true,
       color: "random",
-      distance: 100
+      distance: 10
     },
     move: {
       enable: true,
