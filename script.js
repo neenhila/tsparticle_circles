@@ -51,7 +51,7 @@ tsParticles.load("tsparticles", {
     links: {
       enable: true,
       color: "random",
-      distance: 10
+      distance: 100
     },
     move: {
       enable: true,
@@ -82,20 +82,20 @@ tsParticles.load("tsparticles", {
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 100,
         line_linked: {
           opacity: 1
         }
       },
       bubble: {
-        distance: 400,
+        distance: 100,
         size: 40,
         duration: 2,
         opacity: 0.8,
         speed: 3
       },
       repulse: {
-        distance: 200
+        distance: 100
       },
       push: {
         particles_nb: 4
@@ -122,7 +122,7 @@ tsParticles.load("tsparticles-2", {
   fpsLimit: 60,
   particles: {
     number: {
-      value: 100,
+      value: 20,
     },
     color: {
       value: "#696969",
@@ -133,7 +133,7 @@ tsParticles.load("tsparticles-2", {
     links: {
       enable: true,
       color: "#696969",
-      distance: 150
+      distance: 100
     },
     move: {
       enable: true,
